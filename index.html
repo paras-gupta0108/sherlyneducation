@@ -29,6 +29,9 @@
         <!-- <a class="navbar-brand" href="/index.html">
             <img src="logo.png" width="30" height="30" alt="">
           </a> -->
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
         <div class="container-fluid">
             <a class="navbar-brand" href="/sherlyneducation/index.html">Sherlyn Education</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,6 +68,27 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+                <!-- Join Us Button -->
+                <button class="btn btn-success" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Join Us</button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Join Sherlyn and Watch your Career Grow</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body text-center mx-5">
+                        <a href="#">Software Development</a> <br>
+                        <a href="#">Content Management</a> <br>
+                        <a href="#">Higher Management</a> <br>
+                        <a href="#">Academic Counsellors</a> <br>
+                        <a href="#">Subject Experts</a> <br>
+                        <a href="#">Graphics Designers</a> <br>
+                        <a href="#">Data Team</a> <br>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
